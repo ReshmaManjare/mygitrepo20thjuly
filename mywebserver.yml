@@ -6,7 +6,7 @@
     apt:
      name: apache2
      state: absent
-  - name: i want to install ree
+  - name: i want to install tree
     apt:
      name: tree
      state: present
