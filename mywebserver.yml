@@ -13,7 +13,7 @@
   -  name : i want to restart server
      service:  
       name: apache2
-      state: restarted
+      state: started
 
       
       
