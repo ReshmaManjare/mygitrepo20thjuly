@@ -5,7 +5,7 @@
   - name: i want to install apache
     apt:
      name: apache2
-     state: present
+     state: absent
   - name: i want to install ree
     apt:
      name: tree
