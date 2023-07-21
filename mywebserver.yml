@@ -6,6 +6,11 @@
     apt:
      name: apache2
      state: present
+  - name: i want to install ree
+    apt:
+     name: tree
+     state: present
+
 
 
 
