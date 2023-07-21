@@ -10,6 +10,13 @@
     apt:
      name: tree
      state: present
+  -  name : i want to restart server
+     service:  
+      name: apache2
+      state: restarted
+
+      
+      
 
 
 
